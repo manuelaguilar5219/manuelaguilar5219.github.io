@@ -1,3 +1,24 @@
-body {
+header {
     background-color: blue;
+}
+a {
+    color: black;
+}
+a {
+    font-weight: bold;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 30px;
+}
+a {
+    font-size: 30px;
+}
+p {
+    font-weight: bold;
 }
