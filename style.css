@@ -35,4 +35,11 @@ h3 {
     border: 8px solid grey;
     margin: 1%;
 }
-
+abbr {
+    color: white;
+}
+abbr:hover {
+    background-color: rgb(34, 34, 185);
+    border-radius: 7px;
+    text-decoration: solid;
+}
