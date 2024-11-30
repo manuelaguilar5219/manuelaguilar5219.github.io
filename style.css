@@ -4,8 +4,18 @@
 	font-family: 'Roboto Mono', monospace;
 	font-family: 'Noto Serif', serif;
 */
+a {
+    color: white;
+}
+a:hover {
+    background-color: rgb(34, 34, 185);
+    border-radius: 7px;
+    text-decoration: solid;
+}
 body {
     font-family: 'Noto Serif', serif;
+    background-color: black;
+    color: rgb(34, 34, 185);
 }
 header {
     font-size: 30px;
