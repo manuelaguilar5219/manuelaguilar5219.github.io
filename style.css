@@ -6,6 +6,10 @@
 */
 a {
     color: white;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 a:hover {
     background-color: rgb(34, 34, 185);
@@ -42,4 +46,10 @@ abbr:hover {
     background-color: rgb(34, 34, 185);
     border-radius: 7px;
     text-decoration: solid;
+}
+p::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 1px;
+    line-height: 2;
 }
