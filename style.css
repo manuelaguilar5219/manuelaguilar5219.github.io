@@ -19,6 +19,8 @@ body {
 }
 header {
     font-size: 30px;
+    padding: 20px; /* Added 20 pixels of padding */
+    
 }
 p {
  font-size: 20px;
@@ -26,3 +28,4 @@ p {
 h3 {
     font-size: 30px;
 }
+
