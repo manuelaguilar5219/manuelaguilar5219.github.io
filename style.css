@@ -8,7 +8,6 @@ a {
     color: white; /* Set color of the links to white */
     display: inline-block; /* Set display to inline-block */
     padding: 10px 15px; /* Added padding to the links */
-    border-radius: 5px; /* Added border radius to round the corner of the links  */
     font-weight: bold; /* Made the text bold */
 }
 a:hover {

@@ -4,7 +4,13 @@
 	font-family: 'Roboto Mono', monospace;
 	font-family: 'Noto Serif', serif;
 */
+a {
+    color: lightgrey;
+    display: block;
+    font-weight: bold;
+}
 body {
     background-color: grey;
     font-family: 'Roboto Condensed', sans-serif;
+    color: darkred;
 }
