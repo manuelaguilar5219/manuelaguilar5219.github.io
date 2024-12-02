@@ -6,7 +6,6 @@
 */
 a {
     color: lightgrey;
-    display: inline;
     font-weight: bold;
     padding: 5px;
     transition: background-color 0.3s ease, border-radius 0.3s ease;
@@ -46,11 +45,6 @@ h3 {
     border: 2px solid darkred;
     border-radius: 10px;
 }
-.page-wrapper::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -73,5 +67,5 @@ h3 {
     font-size: 25px;
 }
 footer {
-    text-align: center;
+    text-align: center; 
 }
