@@ -59,7 +59,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33% - 40px);
+    flex: 1 1 30%;
 }
 .design-selection ul, .design-archives ul, .zen-resources ul {
     list-style: none;
