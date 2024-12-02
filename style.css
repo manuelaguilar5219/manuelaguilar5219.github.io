@@ -21,12 +21,14 @@ body {
     background-color: black;
     color: rgb(34, 34, 185);
     font-style: italic;
+    line-height: 145%; 
 }
 header {
-    font-size: 30px;
+    font-size: 35px; /* header font size set at 35px */
     padding: 20px; /* Added 20 pixels of padding */
     border: 8px solid grey;
     margin: 1%;
+    
 }
 p {
  font-size: 20px;
@@ -50,6 +52,30 @@ abbr:hover {
 p::first-letter {
     font-size: 25px;
     font-weight: bold;
-    margin-right: 1px;
-    line-height: 2;
+    margin-right: 1px; /* Added margin to the right of the first letter of p */
+    line-height: 2; /* Set the line height at 2 for the first letter of p */
+}
+.page-wrapper {
+    display: grid; /* Define as grid container */
+    grid-template-columns: 1fr; /* single column grid layout */
+    margin: 0 auto; /* Center the grid on the page */
+    max-width: 1400px; /* Maximum width of the page */
+    padding: 20px; /* Add padding */
+}
+.intro {
+    grid-column: 1 / -1; /* Spans .intro across both columns of the grid */
+}
+.preamble {
+    grid-column: 1 / -1; /* Spans .preamble across both columns of the grid */
+}
+.main.supporting {
+    grid-column: 1 / -1; /* Spans .main.supporting across both columns of the grid */
+}
+.sidebar {
+    grid-column: 1 / -1; /* Spans .sidebar across both columns of the grid */
+}
+footer {
+    grid-column: 1 / -1; /* Span across both columns */
+    text-align: center; /* Center align the footer text */
+    margin-top: 30px; /* Added some margin above the footer */
 }
