@@ -7,7 +7,7 @@
 a {
     color: white; /* Set color of the links to white */
     display: inline-block; /* Set display to inline-block */
-    padding: 10px 15px; /* Added padding to the links */
+    padding: 10px; /* Added padding to the links */
     font-weight: bold; /* Made the text bold */
 }
 a:hover {
@@ -30,7 +30,8 @@ header {
     
 }
 p {
- font-size: 20px; /* Set the p font size to 20 px */
+    font-size: 20px; /* Set the p font size to 20 px */
+    text-indent: 2em; /* Added Text indent to the first line of every paragraph */
 }
 h3 {
     font-size: 30px; /* Set the h3 font size to 30px */
