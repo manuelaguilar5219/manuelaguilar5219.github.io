@@ -5,53 +5,53 @@
 	font-family: 'Noto Serif', serif;
 */
 a {
-    color: white;
+    color: white; /* Set color of the links to white */
     display: inline-block;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight: bold;
+    padding: 10px 15px; /* Added padding to the links */
+    border-radius: 5px; /* Added border radius to round the corner of the links  */
+    font-weight: bold; /* Made the text bold */
 }
 a:hover {
-    background-color: rgb(34, 34, 185);
-    border-radius: 7px;
-    text-decoration: solid;
+    background-color: rgb(34, 34, 185); /* Changed the color when you hover over the links */
+    border-radius: 7px; /* Increase border radius on hover */
+    text-decoration: none; /* Change text decoration on hover so it removes the underline */
 }
 body {
-    font-family: 'Noto Serif', serif;
-    background-color: black;
-    color: rgb(34, 34, 185);
-    font-style: italic;
-    line-height: 145%; 
+    font-family: 'Noto Serif', serif; /* Set font family */
+    background-color: black; /* Set background color to black */
+    color: rgb(34, 34, 185); /* Set the text color to a blue color */
+    font-style: italic; /* Made the text italic */
+    line-height: 145%; /* Set the line height to 145% */
 }
 header {
     font-size: 35px; /* header font size set at 35px */
     padding: 20px; /* Added 20 pixels of padding */
-    border: 8px solid grey;
-    margin: 1%;
+    border: 8px solid grey; /* Added gray border */
+    margin: 1%; /* Added margin around the header */
     
 }
 p {
- font-size: 20px;
+ font-size: 20px; /* Set the p font size to 20 px */
 }
 h3 {
-    font-size: 30px;
+    font-size: 30px; /* Set the h3 font size to 30px */
 }
 .summary, .preamble, .explanation, .participation, .benefits, .requirements, .sidebar, footer {
-    padding: 10px;
-    border: 8px solid grey;
-    margin: 1%;
+    padding: 10px; /* Added padding */
+    border: 8px solid grey; /* Added grey border */
+    margin: 1%; /* Added margin */
 }
 abbr {
-    color: white;
+    color: white; /* Set the abbr text color to white */
 }
 abbr:hover {
-    background-color: rgb(34, 34, 185);
-    border-radius: 7px;
-    text-decoration: solid;
+    background-color: rgb(34, 34, 185); /* Set background color to blue when hover over abbr */
+    border-radius: 7px; /* Round the corners on hover */
+    text-decoration: none; /* Set the text decoration to none*/
 }
 p::first-letter {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 25px; /* font size of the first letter of p */
+    font-weight: bold; /* Made the first letter of p bold */
     margin-right: 1px; /* Added margin to the right of the first letter of p */
     line-height: 2; /* Set the line height at 2 for the first letter of p */
 }
